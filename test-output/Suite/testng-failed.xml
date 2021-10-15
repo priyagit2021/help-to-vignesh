@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="passWord" value="9600943393"/>
+  <parameter name="Check Out Date" value="10/10/2021"/>
+  <parameter name="Adults per Room" value="1 - One"/>
+  <parameter name="Ccexpyear" value="2022"/>
+  <parameter name="Address" value="Tiruchengode"/>
+  <parameter name="Cctype" value="VISA"/>
+  <parameter name="Check In Date" value="09/10/2021"/>
+  <parameter name="Ccexpmonth" value="February"/>
+  <parameter name="Lastname" value="prakash"/>
+  <parameter name="userName" value="9600943393"/>
+  <parameter name="Children per Room" value="1 - One"/>
+  <parameter name="Hotels" value="Hotel Creek"/>
+  <parameter name="Firstname" value="priya"/>
+  <parameter name="Room Type" value="Standard"/>
+  <parameter name="Number of Rooms" value="1 - One"/>
+  <parameter name="Ccnum" value="1234123412341234"/>
+  <parameter name="Cccvv" value="456"/>
+  <parameter name="Location" value="Melbourne"/>
+  <test name="Test">
+    <parameter name="passWord" value="9600943393"/>
+    <parameter name="Check Out Date" value="10/10/2021"/>
+    <parameter name="Adults per Room" value="1 - One"/>
+    <parameter name="Ccexpyear" value="2022"/>
+    <parameter name="Address" value="Tiruchengode"/>
+    <parameter name="Cctype" value="VISA"/>
+    <parameter name="Check In Date" value="09/10/2021"/>
+    <parameter name="Ccexpmonth" value="February"/>
+    <parameter name="Lastname" value="prakash"/>
+    <parameter name="userName" value="9600943393"/>
+    <parameter name="Children per Room" value="1 - One"/>
+    <parameter name="Hotels" value="Hotel Creek"/>
+    <parameter name="Firstname" value="priya"/>
+    <parameter name="Room Type" value="Standard"/>
+    <parameter name="Number of Rooms" value="1 - One"/>
+    <parameter name="Ccnum" value="1234123412341234"/>
+    <parameter name="Cccvv" value="456"/>
+    <parameter name="Location" value="Melbourne"/>
+    <classes>
+      <class name="org.practice.TestNgParameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
